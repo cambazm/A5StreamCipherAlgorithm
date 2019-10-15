@@ -1,0 +1,4 @@
+gcc -c a5.c -o a5.o
+nasm -f elf a5.asm -o a5asm.o
+gcc a5.o a5asm.o -o 040020365
+./040020365
